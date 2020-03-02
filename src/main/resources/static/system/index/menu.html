@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>菜单</title>
+<link rel="stylesheet" href="/bootstrap/css/bootstrap.css" />
+<link rel="stylesheet" href="/css/menu.css" />
+</head>
+<body>
+	<div class="container-fluid" style="padding: 0;">
+		<div class="row-fluid">
+			<div class="col-md-12" style="padding: 0;">
+				<ul id="main-nav" class="nav nav-tabs nav-stacked">
+					
+					<!-- 事项管理 -->
+					
+					<li>
+						<a href="#systemSetting1" onclick="menuCss(this)" class="nav-header collapsed" data-toggle="collapse">
+							<i class="glyphicon glyphicon-plane"></i>
+							<span style="display: inline-block;margin-left: 20px;">事项管理</span>
+							<span class="pull-right glyphicon glyphicon-chevron-down"></span>
+						</a>
+						<ul id="systemSetting1" class="nav nav-list collapse secondmenu" style="height: 0px;">
+							<li>
+								<a href="../leave.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">事项查询</a>
+							</li>
+							<li>
+								<a href="../leave.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">事项统计</a>
+							</li>
+							<li>
+								<a href="../leave.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">事项操作</a>
+							</li>
+						</ul>
+					</li>
+					
+					<!-- 公告管理 -->
+					
+					<li>
+						<a href="#systemSetting1" onclick="menuCss(this)" class="nav-header collapsed" data-toggle="collapse">
+							<i class="glyphicon glyphicon-plane"></i>
+							<span style="display: inline-block;margin-left: 20px;">公告管理</span>
+							<span class="pull-right glyphicon glyphicon-chevron-down"></span>
+						</a>
+						<ul id="systemSetting1" class="nav nav-list collapse secondmenu" style="height: 0px;">
+							<li>
+								<a href="../leave.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">公告操作</a>
+							</li>
+							<li>
+								<a href="../leave.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">收发公告</a>
+							</li>
+							<li>
+								<a href="../leave.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">公告统计</a>
+							</li>
+						</ul>
+					</li>
+					
+					<!-- 项目管理 -->
+					
+					<li>
+						<a href="#systemSetting2" onclick="menuCss(this)" class="nav-header collapsed" data-toggle="collapse">
+							<i class="glyphicon glyphicon-cutlery"></i>
+							<span style="display: inline-block;margin-left: 20px;">项目管理</span>
+							<span class="pull-right glyphicon glyphicon-chevron-down"></span>
+						</a>
+						<ul id="systemSetting2" class="nav nav-list collapse secondmenu" style="height: 0px;">
+							<li>
+								<a href="../examine.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">项目库</a>
+							</li>
+							<li>
+								<a href="../examine.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">项目状态</a>
+							</li>
+							<li>
+								<a href="../examine.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">重点项目</a>
+							</li>
+						</ul>
+					</li>
+					
+					<!-- 数据查看 -->
+					
+					<li>
+						<a href="#systemSetting3" onclick="menuCss(this)" class="nav-header collapsed" data-toggle="collapse">
+							<i class="glyphicon glyphicon-yen"></i>
+							<span style="display: inline-block;margin-left: 20px;">数据查看</span>
+							<span class="pull-right glyphicon glyphicon-chevron-down"></span>
+						</a>
+						<ul id="systemSetting3" class="nav nav-list collapse secondmenu" style="height: 0px;">
+							<li>
+								<a href="../apply.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">名优企业库</a>
+							</li>
+							<li>
+								<a href="../apply.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">异地商会</a>
+							</li>
+							<li>
+								<a href="../apply.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">友好城市</a>
+							</li>
+							<li>
+								<a href="../apply.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">接洽企业情况</a>
+							</li>
+						</ul>
+					</li>
+					
+					<!-- 角色管理 -->
+					
+					<li>
+						<a href="#systemSetting4" onclick="menuCss(this)" class="nav-header collapsed" data-toggle="collapse">
+							<i class="glyphicon glyphicon-time"></i>
+							<span style="display: inline-block;margin-left: 20px;">角色管理</span>
+							<span class="pull-right glyphicon glyphicon-chevron-down"></span>
+						</a>
+						<ul id="systemSetting4" class="nav nav-list collapse secondmenu" style="height: 0px;">
+							<li>
+								<a href="../work.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">角色修改</a>
+							</li>
+							<li>
+								<a href="../work.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">单元管理</a>
+							</li>
+							<li>
+								<a href="../work.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">账号管理</a>
+							</li>
+						</ul>
+					</li>
+					
+					<!-- 系统设置 -->
+					
+					<li>
+						<a href="#systemSetting5" onclick="menuCss(this)" class="nav-header collapsed" data-toggle="collapse">
+							<i class="glyphicon glyphicon-calendar"></i>
+							<span style="display: inline-block;margin-left: 20px;">系统设置</span>
+							<span class="pull-right glyphicon glyphicon-chevron-down"></span>
+						</a>
+						<ul id="systemSetting5" class="nav nav-list collapse secondmenu" style="height: 0px;">
+							<li>
+								<a href="../schedule.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">事项类型管理</a>
+							</li>
+							<li>
+								<a href="../schedule.html" onclick="menuCss(this)" target="content" style="padding-left:25px;">短信相关</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="/js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/menu.js"></script>
+</html>
